@@ -1,5 +1,4 @@
-CHECK: 20240325-015314
-OK: file codeforces.id is correct
+CHECK: 20240401-074253
 ERROR: lab complex - test build failed
 ERROR: lab complex_io - test build failed
 ERROR: lab complex_m - test build failed

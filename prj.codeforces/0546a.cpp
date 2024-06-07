@@ -1,11 +1,17 @@
 #include <iostream>
-using namespace std;
+
 int main() {
-    int k, n, w = 0;
-    cin >> k >> n >> w;
+    int k = 0;
+    int n = 0;
+    int w = 0;
+    std::cin >> k >> n >> w;
     int a = k * w * (w + 1) / 2;
-    if (a > n) {
-        cout << a - n;
+    if (a > n) 
+    {
+        std::cout << a - n;
     }
-    else cout << 0;
+    else
+    {
+        std::cout << 0;
+    }
 }

@@ -11,7 +11,7 @@ int main()
     int c = 0;
     for (int i = 1; i <= d; i++)
     {
-        if (i % k == 0 or i % l == 0 or i % m == 0 or i % n == 0)
+        if (i % k == 0 || i % l == 0 || i % m == 0 || i % n == 0)
         {
             c++;
         }

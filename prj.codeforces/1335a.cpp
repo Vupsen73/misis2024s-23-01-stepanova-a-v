@@ -1,10 +1,11 @@
 #include<iostream>
 
 int main() {
-    int t; 
+    int t;
     std::cin >> t;
-    while (t--) {
-        int n; 
+    while (t--) 
+    {
+        int n;
         std::cin >> n;
         std::cout << (n - 1) / 2 << std::endl;
     }

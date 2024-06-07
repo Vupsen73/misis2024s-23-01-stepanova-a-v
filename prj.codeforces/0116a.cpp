@@ -1,19 +1,20 @@
 #include <iostream>
-using namespace std;
+
 int main() {
 	int n;
-	int a, b;
+	int a;
+	int b;
 	int y = 0;
 	int x = 0;
-	cin >> n;
+	std::cin >> n;
 	for (int i = 1; i <= n; i++)
 	{
-		cin >> a >> b;
+		std::cin >> a >> b;
 		x += b - a;
 
 		if (x > y) {
 			y = x;
 		}
 	}
-	cout << y;
+	std::cout << y;
 }

@@ -3,8 +3,8 @@
 #include<string>
 
 int main() {
-    string s;
-    string d;
+    std::string s;
+    std::string d;
     std::cin >> s >> d;
     reverse(d.begin(), d.end());
     if (s == d)

@@ -1,5 +1,5 @@
-#include <iostream>
-#include <algorithm>
+#include<iostream>
+#include<algorithm>
 #include<string>
 
 int main() {
@@ -8,8 +8,11 @@ int main() {
     std::cin >> s >> d;
     reverse(d.begin(), d.end());
     if (s == d)
+    {
         std::cout << "YES";
-    else
+    } else
+    {
         std::cout << "NO";
+    }
     return 0;
 }

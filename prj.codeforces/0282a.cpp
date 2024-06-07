@@ -1,13 +1,23 @@
 #include<iostream>
-using namespace std;
-int main() {
-	int n, x = 0;
-	cin >> n;
-	for (int i = 0; i < n; i++) {
-		string str;
-		cin >> str;
-		if (str[1] == '+')  x++;
-		else   x--;
+#include<string>
+
+int main() 
+{
+	int n = 0;
+	int x = 0;
+	std::cin >> n;
+	for (int i = 0; i < n; i++) 
+	{
+		std::string str;
+		std::cin >> str;
+		if (str[1] == '+')
+		{
+			x++;
+		}
+		else
+		{
+			x--;
+		}
 	}
-	cout << x << endl;
+	std::cout << x << std::endl;
 }

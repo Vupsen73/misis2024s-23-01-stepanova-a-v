@@ -1,17 +1,22 @@
 #include<iostream>
-using namespace std;
 
 int main() {
-    int n, h, a, ans = 0;
-    cin >> n >> h;
+    int n = 0;
+    int h = 0;
+    int a = 0;
+    int ans = 0;
+    std::cin >> n >> h;
     while (n--)
     {
-        cin >> a;
+        std::cin >> a;
         if (a > h)
+        {
             ans += 2;
+        }
         else
+        {
             ans++;
+        }
     }
-    cout << ans << endl;
-    return 0;
+    std::cout << ans << std::endl;
 }

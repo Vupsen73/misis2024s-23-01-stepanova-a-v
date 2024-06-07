@@ -1,18 +1,23 @@
 #include <iostream>
-using namespace std;
+
 int main()
 {
-    int k, i, n, s = 0;
+    int k = 0;
+    int i = 0;
+    int n = 0;
+    int s = 0;
     int a[50];
-    cin >> n >> k;
+    std::cin >> n >> k;
     for (i = 1; i <= n; i++)
     {
-        cin >> a[i];
+        std::cin >> a[i];
     }
     for (i = 1; i <= n; i++)
     {
         if (a[i] >= a[k] && a[i] != 0)
+        {
             s++;
+        }
     }
-    cout << s;
+    std::cout << s;
 }

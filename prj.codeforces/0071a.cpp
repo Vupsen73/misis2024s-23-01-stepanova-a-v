@@ -7,7 +7,7 @@ int main()
 	std::cin >> t;
 	while (t--)
 	{
-		string s;
+		std::string s;
 		std::cin >> s;
 		int l = s.size();
 		if (l <= 10)

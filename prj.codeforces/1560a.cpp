@@ -2,7 +2,10 @@
 
 int main()
 {
-    int t, n, i, cnt;
+    int t;
+    int n;
+    int i;
+    int cnt;
     std::cin >> t;
     while (t--)
     {

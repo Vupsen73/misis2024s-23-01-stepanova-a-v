@@ -11,8 +11,9 @@ int main()
 		std::cin >> s;
 		int l = s.size();
 		if (l <= 10)
+		{
 			std::cout << s << std::endl;
-		else
+		} else
 		{
 			std::cout << s[0] << l - 2 << s[l - 1] << std::endl;
 		}

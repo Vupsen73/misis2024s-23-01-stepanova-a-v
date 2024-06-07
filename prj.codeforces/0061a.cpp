@@ -1,10 +1,11 @@
 #include<iostream>
 #include<string>
-using namespace std;
+
 int main()
 {
-	string a, b;
-	cin >> a >> b;
+	string a;
+	string b;
+	std::cin >> a >> b;
 	for (int i = 0; i < a.length(); i++)
 	{
 		if (a[i] == b[i])
@@ -12,5 +13,5 @@ int main()
 		else
 			a[i] = '1';
 	}
-	cout << a;
+	std::cout << a;
 }

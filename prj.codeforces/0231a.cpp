@@ -7,9 +7,11 @@ int main() {
 	int c = 0;
 	int k = 0;
 	std::cin >> x;
-	for (int i = 0; i < x; i++) {
+	for (int i = 0; i < x; i++) 
+	{
 		std::cin >> a >> b >> c;
-		if (a + b + c > 1) {
+		if (a + b + c > 1) 
+		{
 			k++;
 		}
 	}

@@ -12,7 +12,8 @@ int main() {
 		std::cin >> a >> b;
 		x += b - a;
 
-		if (x > y) {
+		if (x > y) 
+		{
 			y = x;
 		}
 	}

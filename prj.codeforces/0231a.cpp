@@ -1,13 +1,17 @@
 #include <iostream>
-using namespace std;
+
 int main() {
-	int x, a, b, c, k = 0;
-	cin >> x;
+	int x = 0;
+	int a = 0;
+	int b = 0;
+	int c = 0;
+	int k = 0;
+	std::cin >> x;
 	for (int i = 0; i < x; i++) {
-		cin >> a >> b >> c;
+		std::cin >> a >> b >> c;
 		if (a + b + c > 1) {
 			k++;
 		}
 	}
-	cout << k;
+	std::cout << k;
 }

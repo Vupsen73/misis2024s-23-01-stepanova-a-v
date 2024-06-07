@@ -6,7 +6,8 @@ int main()
 	double a;
 	double s = 0;
 	std::cin >> n;
-	for (int i = 0; i < n; i++) {
+	for (int i = 0; i < n; i++)
+	{
 		std::cin >> a;
 		s += (a / 100);
 	}

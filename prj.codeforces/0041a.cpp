@@ -1,14 +1,15 @@
 #include <iostream>
 #include <algorithm>
-using namespace std;
+#include<string>
 
 int main() {
-    string s, d;
-    cin >> s >> d;
+    string s;
+    string d;
+    std::cin >> s >> d;
     reverse(d.begin(), d.end());
     if (s == d)
-        cout << "YES";
+        std::cout << "YES";
     else
-        cout << "NO";
+        std::cout << "NO";
     return 0;
 }

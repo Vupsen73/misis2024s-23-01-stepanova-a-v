@@ -3,8 +3,8 @@
 
 int main()
 {
-	string a;
-	string b;
+	std::string a;
+	std::string b;
 	std::cin >> a >> b;
 	for (int i = 0; i < a.length(); i++)
 	{

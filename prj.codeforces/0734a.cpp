@@ -1,23 +1,35 @@
 #include<iostream>
-using namespace std;
+#include<string>
+
 int main()
 {
 	int n;
-	cin >> n;
-	string s;
-	cin >> s;
-	int c1 = 0, c2 = 0;
+	std::cin >> n;
+	std::string s;
+	std::cin >> s;
+	int c1 = 0;
+	int c2 = 0;
 	for (int i = 0; i < n; i++)
 	{
 		if (s[i] == 'A')
+		{
 			c1++;
+		}
 		else
+		{
 			c2++;
+		}
 	}
 	if (c1 > c2)
-		cout << "Anton";
+	{
+		std::cout << "Anton";
+	}
 	else if (c2 > c1)
-		cout << "Danik";
+	{
+		std::cout << "Danik";
+	}
 	else
-		cout << "Friendship";
+	{
+		std::cout << "Friendship";
+	}
 }

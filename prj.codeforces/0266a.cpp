@@ -1,17 +1,19 @@
 #include<iostream>
 #include<string>
-using namespace std;
+
 int main()
 {
-	string s;
+	std::string s;
 	int n;
-	cin >> n;
-	cin >> s;
+	std::cin >> n;
+	std::cin >> s;
 	int count = 0;
 	for (int i = 0; i < n; i++)
 	{
 		if (s[i] == s[i + 1])
+		{
 			count++;
+		}
 	}
-	cout << count;
+	std::cout << count;
 }

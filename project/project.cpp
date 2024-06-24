@@ -1,6 +1,6 @@
 #include "project.hpp"
 
 int main() {
-	std::cout << "Hello CMake" << std::endl;
+	std::cout << "Hello Mr.Polevoy!" << std::endl;
 	return 0;
 }

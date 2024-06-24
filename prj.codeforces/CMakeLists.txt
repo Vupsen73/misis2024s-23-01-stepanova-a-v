@@ -1,0 +1,1 @@
+add_executable(0032b "0032b.cpp")
